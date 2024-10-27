@@ -13,4 +13,11 @@
     <color name="colorSecondaryText">#757575</color>
     <color name="colorDivider">#BDBDBD</color>
     <color name="colorTextIcons">#FFFFFF</color>
+    <color name="splash_background_color">#303033</color>
+    <color name="splash_text_color">#000000</color>
+    <color name="background">#303033</color>
+    <color name="card_background">#FFFFFF</color>
+    <color name="accent_purple">#8E24AA</color>
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#546E7A</color>
 </resources>
