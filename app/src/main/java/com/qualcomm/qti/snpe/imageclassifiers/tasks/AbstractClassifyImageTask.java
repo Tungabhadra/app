@@ -21,7 +21,7 @@ import java.nio.ByteOrder;
 import java.nio.FloatBuffer;
 import java.util.Set;
 
-public abstract class AbstractClassifyImageTask extends AsyncTask<Bitmap, Void, String[]> {
+public abstract class AbstractClassifyImageTask extends AsyncTask<Bitmap, Void, String> {
 
     private static final String LOG_TAG = AbstractClassifyImageTask.class.getSimpleName();
 
@@ -62,10 +62,10 @@ public abstract class AbstractClassifyImageTask extends AsyncTask<Bitmap, Void, 
     }
 
     @Override
-    protected void onPostExecute(String[] labels) {
-        super.onPostExecute(labels);
+    protected void onPostExecute(String label) {
+        super.onPostExecute(label);
         //if (labels.length > 0) {
-            mController.onClassificationResult(labels, mJavaExecuteTime);
+            mController.onClassificationResult(label, mJavaExecuteTime);
         //} else {
 //            mController.onClassificationFailed();
         // }

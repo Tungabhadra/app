@@ -5,9 +5,11 @@
  */
 package com.qualcomm.qti.snpe.imageclassifiers;
 
+import android.annotation.SuppressLint;
 import android.app.Application;
 import android.graphics.Bitmap;
 import android.os.AsyncTask;
+import android.widget.Toast;
 
 import com.qualcomm.qti.snpe.NeuralNetwork;
 import com.qualcomm.qti.snpe.SNPE;
@@ -188,10 +190,12 @@ public class ModelOverviewFragmentController extends AbstractViewController<Mode
         }
     }
 
-    public void onClassificationResult(String[] labels, long javaExecuteTime) {
+    @SuppressLint("NewApi")
+    public void onClassificationResult(String label, long javaExecuteTime) {
         if (isAttached()) {
             ModelOverviewFragment view = getView();
-            view.setClassificationResult(labels);
+            Toast.makeText(getView().getContext(), label, Toast.LENGTH_SHORT).show();
+//            view.setClassificationResult(label);
             view.setJavaExecuteStatistics(javaExecuteTime);
         }
     }

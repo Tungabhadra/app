@@ -31,7 +31,29 @@ public class ClassifyImageWithFloatTensorTask extends AbstractClassifyImageTask 
     }
 
     @Override
-    protected String[] doInBackground(Bitmap... params) {
+    protected String doInBackground(Bitmap... params) {
+
+        String[] yogaPoses = {
+                "Utkatakonasana",
+                "Natarajasana",
+                "Trikonasana",
+                "Veerabhadrasana",
+                "Padhahastasana",
+                "Ashwasanchalasana",
+                "Astangasana",
+                "Bhujangasana",
+                "ArdhaChandrasana",
+                "Parvathasana",
+                "BaddhaKonasana",
+                "Vrukshasana",
+                "Dandasana",
+                "Shashangasana",
+                "Ardhachakrasana",
+                "Pranamasana"
+        };
+
+        int j = 0;
+
         final List<String> result = new LinkedList<>();
 
         final FloatTensor tensor = mNeuralNetwork.createFloatTensor(
@@ -66,26 +88,6 @@ public class ClassifyImageWithFloatTensorTask extends AbstractClassifyImageTask 
 
                 System.out.println(" " + array.length);
 
-                String[] yogaPoses = {
-                        "Utkatakonasana",
-                        "Natarajasana",
-                        "Trikonasana",
-                        "Veerabhadrasana",
-                        "Padhahastasana",
-                        "Ashwasanchalasana",
-                        "Astangasana",
-                        "Bhujangasana",
-                        "ArdhaChandrasana",
-                        "Parvathasana",
-                        "BaddhaKonasana",
-                        "Vrukshasana",
-                        "Dandasana",
-                        "Shashangasana",
-                        "Ardhachakrasana",
-                        "Pranamasana"
-                };
-
-                int j = 0;
                 float max = array[j];
 
                 for (int i = 0;i < array.length;++i)
@@ -112,7 +114,7 @@ public class ClassifyImageWithFloatTensorTask extends AbstractClassifyImageTask 
 
         releaseTensors(inputs, outputs);
 
-        return result.toArray(new String[result.size()]);
+        return yogaPoses[j];
     }
 
     @SafeVarargs

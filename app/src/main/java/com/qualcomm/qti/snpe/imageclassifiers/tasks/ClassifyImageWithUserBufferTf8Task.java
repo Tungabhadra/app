@@ -41,7 +41,7 @@ public class ClassifyImageWithUserBufferTf8Task extends AbstractClassifyImageTas
     }
 
     @Override
-    protected String[] doInBackground(Bitmap... params) {
+    protected String doInBackground(Bitmap... params) {
         final List<String> result = new LinkedList<>();
 
         final Map<String, TF8UserBufferTensor> inputTensors = new HashMap<>();
@@ -52,7 +52,7 @@ public class ClassifyImageWithUserBufferTf8Task extends AbstractClassifyImageTas
 
         boolean status = prepareInputs(inputTensors, inputBuffers);
         if (!status) {
-            return new String[0];
+            return null;
         }
         prepareOutputs(outputTensors, outputBuffers);
 
@@ -60,7 +60,7 @@ public class ClassifyImageWithUserBufferTf8Task extends AbstractClassifyImageTas
         status = mNeuralNetwork.execute(inputTensors, outputTensors);
         final long javaExecuteEnd = SystemClock.elapsedRealtime();
         if (!status) {
-            return new String[0];
+            return null;
         }
         mJavaExecuteTime = javaExecuteEnd - javaExecuteStart;
 
@@ -70,11 +70,11 @@ public class ClassifyImageWithUserBufferTf8Task extends AbstractClassifyImageTas
             result.add(String.valueOf(pair.second));
         }
 
-        String[] resultString = result.toArray(new String[result.size()]);
+//        String resultString = result.toArray(new String[result.size()]);
 
         releaseTensors(inputTensors, outputTensors);
 
-        return resultString;
+        return null;
     }
 
     private boolean prepareInputs(final Map<String, TF8UserBufferTensor> inputTensors,
