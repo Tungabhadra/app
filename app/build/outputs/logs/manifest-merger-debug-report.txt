@@ -1,0 +1,85 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/bluebottle/dev/aosp/esw/app/app/src/main/AndroidManifest.xml:7:1-41:12
+INJECTED from /home/bluebottle/dev/aosp/esw/app/app/src/main/AndroidManifest.xml:7:1-41:12
+INJECTED from /home/bluebottle/dev/aosp/esw/app/app/src/main/AndroidManifest.xml:7:1-41:12
+INJECTED from /home/bluebottle/dev/aosp/esw/app/app/src/main/AndroidManifest.xml:7:1-41:12
+MERGED from [:snpe-release:] /home/bluebottle/.gradle/caches/8.9/transforms/d4ce812886e4a454f7fd8aa6914a0167/transformed/snpe-release/AndroidManifest.xml:7:1-14:12
+	package
+		ADDED from /home/bluebottle/dev/aosp/esw/app/app/src/main/AndroidManifest.xml:8:11-59
+		INJECTED from /home/bluebottle/dev/aosp/esw/app/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/bluebottle/dev/aosp/esw/app/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/bluebottle/dev/aosp/esw/app/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/bluebottle/dev/aosp/esw/app/app/src/main/AndroidManifest.xml:7:11-69
+application
+ADDED from /home/bluebottle/dev/aosp/esw/app/app/src/main/AndroidManifest.xml:10:5-39:19
+INJECTED from /home/bluebottle/dev/aosp/esw/app/app/src/main/AndroidManifest.xml:10:5-39:19
+	android:extractNativeLibs
+		INJECTED from /home/bluebottle/dev/aosp/esw/app/app/src/main/AndroidManifest.xml
+	android:supportsRtl
+		ADDED from /home/bluebottle/dev/aosp/esw/app/app/src/main/AndroidManifest.xml:14:9-35
+	android:label
+		ADDED from /home/bluebottle/dev/aosp/esw/app/app/src/main/AndroidManifest.xml:13:9-41
+	android:largeHeap
+		ADDED from /home/bluebottle/dev/aosp/esw/app/app/src/main/AndroidManifest.xml:16:9-33
+	android:icon
+		ADDED from /home/bluebottle/dev/aosp/esw/app/app/src/main/AndroidManifest.xml:12:9-40
+	android:allowBackup
+		ADDED from /home/bluebottle/dev/aosp/esw/app/app/src/main/AndroidManifest.xml:11:9-36
+	android:theme
+		ADDED from /home/bluebottle/dev/aosp/esw/app/app/src/main/AndroidManifest.xml:15:9-40
+activity#com.qualcomm.qti.snpe.imageclassifiers.MainActivity
+ADDED from /home/bluebottle/dev/aosp/esw/app/app/src/main/AndroidManifest.xml:17:9-24:20
+	android:exported
+		ADDED from /home/bluebottle/dev/aosp/esw/app/app/src/main/AndroidManifest.xml:18:19-42
+	android:name
+		ADDED from /home/bluebottle/dev/aosp/esw/app/app/src/main/AndroidManifest.xml:17:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/bluebottle/dev/aosp/esw/app/app/src/main/AndroidManifest.xml:19:13-23:29
+action#android.intent.action.MAIN
+ADDED from /home/bluebottle/dev/aosp/esw/app/app/src/main/AndroidManifest.xml:20:17-68
+	android:name
+		ADDED from /home/bluebottle/dev/aosp/esw/app/app/src/main/AndroidManifest.xml:20:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/bluebottle/dev/aosp/esw/app/app/src/main/AndroidManifest.xml:22:17-76
+	android:name
+		ADDED from /home/bluebottle/dev/aosp/esw/app/app/src/main/AndroidManifest.xml:22:27-74
+uses-library#libOpenCL.so
+ADDED from /home/bluebottle/dev/aosp/esw/app/app/src/main/AndroidManifest.xml:25:9-26:43
+	android:required
+		ADDED from /home/bluebottle/dev/aosp/esw/app/app/src/main/AndroidManifest.xml:26:17-41
+	android:name
+		ADDED from /home/bluebottle/dev/aosp/esw/app/app/src/main/AndroidManifest.xml:25:23-50
+uses-library#libcdsprpc.so
+ADDED from /home/bluebottle/dev/aosp/esw/app/app/src/main/AndroidManifest.xml:27:9-28:43
+	android:required
+		ADDED from /home/bluebottle/dev/aosp/esw/app/app/src/main/AndroidManifest.xml:28:17-41
+	android:name
+		ADDED from /home/bluebottle/dev/aosp/esw/app/app/src/main/AndroidManifest.xml:27:23-51
+service#com.qualcomm.qti.snpe.imageclassifiers.ModelExtractionService
+ADDED from /home/bluebottle/dev/aosp/esw/app/app/src/main/AndroidManifest.xml:30:9-33:19
+	android:exported
+		ADDED from /home/bluebottle/dev/aosp/esw/app/app/src/main/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from /home/bluebottle/dev/aosp/esw/app/app/src/main/AndroidManifest.xml:31:13-51
+provider#com.qualcomm.qti.snpe.imageclassifiers.FileProvider
+ADDED from /home/bluebottle/dev/aosp/esw/app/app/src/main/AndroidManifest.xml:34:9-38:20
+	android:authorities
+		ADDED from /home/bluebottle/dev/aosp/esw/app/app/src/main/AndroidManifest.xml:36:13-86
+	android:exported
+		ADDED from /home/bluebottle/dev/aosp/esw/app/app/src/main/AndroidManifest.xml:37:13-37
+	android:name
+		ADDED from /home/bluebottle/dev/aosp/esw/app/app/src/main/AndroidManifest.xml:35:13-41
+uses-sdk
+INJECTED from /home/bluebottle/dev/aosp/esw/app/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/bluebottle/dev/aosp/esw/app/app/src/main/AndroidManifest.xml
+INJECTED from /home/bluebottle/dev/aosp/esw/app/app/src/main/AndroidManifest.xml
+MERGED from [:snpe-release:] /home/bluebottle/.gradle/caches/8.9/transforms/d4ce812886e4a454f7fd8aa6914a0167/transformed/snpe-release/AndroidManifest.xml:10:5-12:41
+MERGED from [:snpe-release:] /home/bluebottle/.gradle/caches/8.9/transforms/d4ce812886e4a454f7fd8aa6914a0167/transformed/snpe-release/AndroidManifest.xml:10:5-12:41
+	android:targetSdkVersion
+		INJECTED from /home/bluebottle/dev/aosp/esw/app/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/bluebottle/dev/aosp/esw/app/app/src/main/AndroidManifest.xml

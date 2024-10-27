@@ -1,0 +1,79 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.qualcomm.qti.snpe.imageclassifiers.app-debug-5:/values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "/home/bluebottle/dev/aosp/esw/app/app/src/main/res/values/styles.xml",
+                    "from": {
+                        "startLines": "6,12,17",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "166,473,634",
+                        "endLines": "10,15,20",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "467,628,793"
+                    },
+                    "to": {
+                        "startLines": "38,43,47",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "2166,2472,2632",
+                        "endLines": "42,46,50",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "2467,2627,2791"
+                    }
+                },
+                {
+                    "source": "/home/bluebottle/.gradle/caches/8.9/transforms/d4ce812886e4a454f7fd8aa6914a0167/transformed/snpe-release/res/values/values.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "73",
+                        "endOffsets": "124"
+                    },
+                    "to": {
+                        "startLines": "33",
+                        "startColumns": "4",
+                        "startOffsets": "1848",
+                        "endColumns": "73",
+                        "endOffsets": "1917"
+                    }
+                },
+                {
+                    "source": "/home/bluebottle/dev/aosp/esw/app/app/src/main/res/values/colors.xml",
+                    "from": {
+                        "startLines": "9,13,7,8,10,11,12,14",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "303,505,205,252,349,401,452,552",
+                        "endColumns": "45,46,46,50,51,50,52,48",
+                        "endOffsets": "344,547,247,298,396,447,500,596"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,101,148,195,246,298,349,402",
+                        "endColumns": "45,46,46,50,51,50,52,48",
+                        "endOffsets": "96,143,190,241,293,344,397,446"
+                    }
+                },
+                {
+                    "source": "/home/bluebottle/dev/aosp/esw/app/app/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "6,31,24,22,23,18,32,7,16,12,13,9,14,10,11,17,29,28,19,20,8,30,15,21,25,26,27",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "172,1678,1254,1145,1197,904,1735,232,774,530,586,349,651,426,471,837,1562,1492,977,1027,293,1632,718,1085,1308,1360,1424",
+                        "endColumns": "59,56,53,51,56,72,77,60,62,55,64,76,66,44,58,66,69,69,49,57,55,45,55,59,51,63,67",
+                        "endOffsets": "227,1730,1303,1192,1249,972,1808,288,832,581,646,421,713,466,525,899,1627,1557,1022,1080,344,1673,769,1140,1355,1419,1487"
+                    },
+                    "to": {
+                        "startLines": "10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,34,35,36,37",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "451,511,568,622,674,731,804,882,943,1006,1062,1127,1204,1271,1316,1375,1442,1512,1582,1632,1690,1746,1792,1922,1982,2034,2098",
+                        "endColumns": "59,56,53,51,56,72,77,60,62,55,64,76,66,44,58,66,69,69,49,57,55,45,55,59,51,63,67",
+                        "endOffsets": "506,563,617,669,726,799,877,938,1001,1057,1122,1199,1266,1311,1370,1437,1507,1577,1627,1685,1741,1787,1843,1977,2029,2093,2161"
+                    }
+                }
+            ]
+        }
+    ]
+}

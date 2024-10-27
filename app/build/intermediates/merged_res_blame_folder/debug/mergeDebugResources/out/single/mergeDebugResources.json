@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "com.qualcomm.qti.snpe.imageclassifiers.app-debug-5:/drawable_classification_background.xml.flat",
+        "source": "com.qualcomm.qti.snpe.imageclassifiers.app-main-7:/drawable/classification_background.xml"
+    },
+    {
+        "merged": "com.qualcomm.qti.snpe.imageclassifiers.app-debug-5:/drawable_button.xml.flat",
+        "source": "com.qualcomm.qti.snpe.imageclassifiers.app-main-7:/drawable/button.xml"
+    },
+    {
+        "merged": "com.qualcomm.qti.snpe.imageclassifiers.app-debug-5:/mipmap-xhdpi_launcher.png.flat",
+        "source": "com.qualcomm.qti.snpe.imageclassifiers.app-main-7:/mipmap-xhdpi/launcher.png"
+    },
+    {
+        "merged": "com.qualcomm.qti.snpe.imageclassifiers.app-debug-5:/layout_activity_main.xml.flat",
+        "source": "com.qualcomm.qti.snpe.imageclassifiers.app-main-7:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.qualcomm.qti.snpe.imageclassifiers.app-debug-5:/layout_model_image_layout.xml.flat",
+        "source": "com.qualcomm.qti.snpe.imageclassifiers.app-main-7:/layout/model_image_layout.xml"
+    },
+    {
+        "merged": "com.qualcomm.qti.snpe.imageclassifiers.app-debug-5:/raw_inception_v3.zip.flat",
+        "source": "com.qualcomm.qti.snpe.imageclassifiers.app-main-7:/raw/inception_v3.zip"
+    },
+    {
+        "merged": "com.qualcomm.qti.snpe.imageclassifiers.app-debug-5:/layout_models_list.xml.flat",
+        "source": "com.qualcomm.qti.snpe.imageclassifiers.app-main-7:/layout/models_list.xml"
+    },
+    {
+        "merged": "com.qualcomm.qti.snpe.imageclassifiers.app-debug-5:/layout_models_list_item.xml.flat",
+        "source": "com.qualcomm.qti.snpe.imageclassifiers.app-main-7:/layout/models_list_item.xml"
+    },
+    {
+        "merged": "com.qualcomm.qti.snpe.imageclassifiers.app-debug-5:/layout_fragment_model.xml.flat",
+        "source": "com.qualcomm.qti.snpe.imageclassifiers.app-main-7:/layout/fragment_model.xml"
+    }
+]
